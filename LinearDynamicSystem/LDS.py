@@ -4,7 +4,7 @@ from scipy.linalg import pinv, svd # Your only additional allowed imports!
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description = "Homework 2",
-        epilog = "CSCI 4360/6360 Data Science II: Fall 2023",
+        epilog = "epilog",
         add_help = "How to use",
         prog = "python homework2.py <arguments>")
     parser.add_argument("-f", "--infile", required = True,
