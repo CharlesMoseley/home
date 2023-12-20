@@ -7,7 +7,7 @@ STEP_SIZE = 0.0001
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description = "Homework 1",
-        epilog = "CSCI 4360/6360 Data Science II: Fall 2023",
+        epilog = "epilog",
         add_help = "How to use",
         prog = "python homework1.py [train-data] [train-label] [test-data]")
     parser.add_argument("paths", nargs = 3)
